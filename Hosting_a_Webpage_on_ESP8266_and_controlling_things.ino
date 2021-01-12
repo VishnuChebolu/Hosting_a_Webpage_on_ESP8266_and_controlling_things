@@ -45,7 +45,7 @@ void loop() {
   
   client.println("<html>");
   client.println("<h1>Hello Boss!</h1>");
-  client.println("<h2>Hre are the controls</h2><br>");
+  client.println("<h2>Here are the controls</h2><br>");
   client.println("<a href=\"/ledon\"\"><button>LED  ON</button></a>");
   client.println("<a href=\"/ledoff\"\"><button>LED  OFF</button></a><br/>");  //here there are only 2 buttons for ON/OFF of the led
   client.println("</html>");      //It's our wish to add our own actuators here
